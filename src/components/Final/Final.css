@@ -1,0 +1,108 @@
+#pd-img{
+    width: 813px;
+    position: absolute;
+}
+.pd-img2{
+    
+    max-width: 850px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+#pad-44{
+    width: 290px;
+    
+}
+#pad-con{
+    position: absolute; 
+    line-height: 40px;
+   
+    transform: translate(-50%, -50%); 
+    color: #4B6F00; 
+    font-size: 3.5rem; 
+    font-weight: bold;
+    text-align: center;
+    z-index: 2; 
+    pointer-events: none; 
+    -webkit-transform: rotate(-5deg); 
+    -moz-transform: rotate(-90deg); 
+    font-family: "Road Rage", sans-serif;
+   font-weight: 700;
+}
+.btno90{
+    height: 25px;
+    width: 100px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 29px;
+    background-color: #4B6F00;
+    color: white;
+    line-height: 0%;
+}
+.pad-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%; 
+  }
+
+
+  #hide-srll {
+    overflow: hidden;
+    scrollbar-width: none;
+  }
+  
+  .trtr {
+  
+    height: auto; 
+  }
+
+/* 
+@media (max-width:768px) {
+    #pad-con{
+        line-height: 40px;
+        bottom: -234%; 
+        left: 11.5%; 
+        transform: translate(-50%, -50%); 
+        font-size: 3.5rem; 
+        -webkit-transform: rotate(-5deg); 
+        -moz-transform: rotate(-90deg); 
+    }
+   
+}
+
+
+@media (max-width:425px) {
+    #pad-con{
+        line-height: 40px;
+        bottom: -108%; 
+        left: 37.5%; 
+       
+    }
+
+}
+@media (min-width:375px) {
+    
+    #pad-con{
+        line-height: 40px;
+        bottom: -128%; 
+        left: 37.5%; 
+        transform: translate(-50%, -50%); 
+        font-size: 3.5rem; 
+        -webkit-transform: rotate(-5deg); 
+        -moz-transform: rotate(-90deg); 
+    }
+}
+@media (max-width:320px) {
+    #pad-con{
+        line-height: 40px;
+        bottom: -110%; 
+        left: 22.5%; 
+        transform: translate(-50%, -50%); 
+        font-size: 3.5rem; 
+        -webkit-transform: rotate(-5deg); 
+        -moz-transform: rotate(-90deg); 
+    }
+} */

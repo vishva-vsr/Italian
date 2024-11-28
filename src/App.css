@@ -1,0 +1,11 @@
+#over-bg-id{
+  background-color: #466903;
+  background-image: url("./assets/background.png");
+  background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center;
+width: 100vw;
+}
+#rem-over{
+  overflow-x: hidden;
+}

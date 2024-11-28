@@ -1,0 +1,135 @@
+.menu-stripe {
+    display: flex;
+    align-items: center;
+    height: 60vh; 
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+  
+}
+
+.menu-item {
+    position: relative;
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+.skew-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.menu-image {
+    width: 115%; 
+    filter: brightness(0.8); 
+    transition: transform 0.3s ease;
+}
+
+#fst-img {
+   
+    transform: skewX(-10deg) translateX(-6%); 
+}
+
+#snd-img {
+    transform: skewX(-10deg) translateX(6%); 
+}
+
+
+.menu-texting h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-shadow: 1px 3px 4px rgb(11, 94, 0);
+   font-size: 200px;
+    font-weight: 400;
+    z-index: 2;
+    font-family: "Road Rage", sans-serif;
+}
+
+
+.order-button {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%); 
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: #ffffff;
+    color: #335002;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+    font-weight: 600;
+    font-family: "Road Rage", sans-serif;
+}
+
+.order-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .menu-stripe {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .menu-item {
+        width: 100%; 
+        margin-bottom: 0px;
+    }
+
+    .menu-text {
+        font-size: 1.8rem;
+    }
+
+    .order-button {
+        bottom: 5%; 
+    }
+}
+@media (max-width:426px) {
+    #fst-img {
+   
+        transform: none; 
+    }
+    
+    #snd-img {
+        transform: none; 
+    }
+    .menu-texting h2{
+        font-size: 150px !important;
+    }
+}
+@media (max-width:768px) {
+    #fst-img {
+   
+        transform: none; 
+    }
+    
+    #snd-img {
+        transform: none; 
+    }
+}
+@media (max-width:1440px) {
+    .menu-item {
+        width: 100%; 
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .menu-stripe {
+    
+        
+        height: auto;
+    }
+}
+

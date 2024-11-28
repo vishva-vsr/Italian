@@ -1,0 +1,227 @@
+
+  .main-image {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  #img-mob{
+    width: 100%;
+  }
+  .image-wrapper {
+    position: relative;
+   left: 35%;
+  }
+
+  .icons-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .icons-container img {
+    width: 70px; 
+    height: auto;
+  }
+  #txt-con{
+    color: #466903;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Road Rage", sans-serif;
+  }
+  #abt-img23 {
+    width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  margin: 0 auto; 
+  display: block; 
+    
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 48%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+    border-radius: 50%; 
+    width: 30%; 
+  }
+  
+  .text-overlay h1 {
+    font-size: 70px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-family: "Road Rage", sans-serif;
+  }
+  
+  .text-overlay p {
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: "Road Rage", sans-serif;
+  }
+  
+  @media (max-width: 1200px) {
+    .text-overlay h1 {
+      font-size: 60px;
+    }
+  
+    .text-overlay p {
+      font-size: 20px;
+    }
+  
+    #txt-con {
+      font-size: 30px;
+    }
+  
+    .icons-container img {
+      width: 50px;
+    }
+    #abt-img23 {
+      padding: 0 10px; 
+    }
+  }
+  
+  @media (max-width: 992px) {
+   
+    .main-image {
+      max-width: 80%; 
+      margin: 20px auto; 
+    }
+    .image-wrapper {
+      left: 0;
+      text-align: center;
+    }
+  
+    #abt-img23 {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  
+    .text-overlay {
+      width: 50%;
+      top: 60%;
+      left: 50%;
+    }
+  
+    .icons-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-overlay h1 {
+      font-size: 40px;
+    }
+    .main-image {
+      max-width: 70%; 
+      margin: 15px auto;
+    }
+
+    .text-overlay {
+      width: 30%;
+      border-radius: 50px;
+      top: 50%;
+      left: 69%;
+    }
+    #custom-row {
+      order: -1; 
+    }
+  
+    .text-overlay p {
+      font-size: 18px;
+    }
+  
+    #txt-con {
+      font-size: 20px;
+    }
+  
+    .icons-container img {
+      width: 60px;
+    }
+    #abt-img23 {
+    
+      margin-left: 10%;
+    }
+  
+   
+  }
+  
+  @media (max-width: 576px) {
+    .text-overlay h1 {
+      font-size: 30px;
+    }
+    .main-image {
+      max-width: 60%; 
+      margin: 10px auto;
+    }
+    .text-overlay p {
+      font-size: 8px;
+    }
+  
+    .icons-container img {
+      width: 30px;
+    }
+  
+    .icons-container {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    #txt-con {
+      font-size: 18px;
+    }
+    #abt-img23 {
+      padding: 0 1px; 
+      margin-left: 10%;
+    }
+  }
+ 
+@media (max-width: 992px) {
+  #custom-row {
+    display: none; 
+  }
+
+  #custom-mob {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    flex-direction: column; 
+  }
+
+  .text-overlay {
+    width: 45%; 
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+
+  .text-overlay h1 {
+    font-size: 35px;
+  }
+
+  .text-overlay p {
+    font-size: 12px; 
+    line-height: 1.2;
+  }
+}
+@media (min-width: 992px) {
+  #custom-row {
+    display: block;
+  }
+
+  #custom-mob {
+    display: none;
+  }
+}

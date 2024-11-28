@@ -1,0 +1,83 @@
+#img-crd89 {
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card {
+    display: flex;
+    position: relative;
+    font-family: 'Arial, sans-serif';
+    background-color: transparent;
+    border: 0cap;
+   
+  }
+  
+  .cards-label {
+    flex: 1;
+    position: absolute;
+    top: 30%;
+    left: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2D701;
+    transform: rotate(-90deg) translateY(-50%);
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Road Rage", sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 45px 45px 0 0;
+    width: 180px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .cards-label2 {
+    flex: 1;
+    position: absolute;
+    top: 30%;
+    right: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2D701;
+    transform: rotate(-90deg) translateY(-50%);
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Road Rage", sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius:0 0 45px 45px ;
+    width: 180px;
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width:426px) {
+    #img-crd89 {
+      width: 200px !important;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    .cards-label{
+      width: 100px;
+      left: 200px;
+      height: 50px;
+      border-radius:  0 0 25px 25px;
+      font-size: 15px;
+    }
+    .cards-label2{
+      width: 100px;
+      left: -50px;
+      height: 50px;
+      border-radius: 25px 25px 0 0;
+      font-size: 15px;
+    }
+  }
+  
